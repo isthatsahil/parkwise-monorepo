@@ -1,0 +1,16 @@
+{
+  "name": "@parkwise/sample-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "scripts": {
+    "build:cjs": "tsc --project tsconfig.cjs.json",
+    "build:esm": "tsc --project tsconfig.esm.json",
+    "build": "pnpm build:cjs && pnpm build:esm",
+    "tsc": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

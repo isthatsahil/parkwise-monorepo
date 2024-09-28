@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "target": "ES6",
+    "moduleResolution": "Node",
+    "declaration": true
+  }
+}

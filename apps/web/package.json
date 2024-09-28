@@ -1,15 +1,16 @@
 {
-  "name": "@autospace/web",
+  "name": "@parkwise/web",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite -p 3001",
+    "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@parkwise/sample-lib": "workspace:^",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.446.0",
