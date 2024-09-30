@@ -1,8 +1,7 @@
 {
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "rootDir": ".",
-    "target": "ES6",
-    "moduleResolution": "Node",
-    "declaration": true
+    "outDir": "dist",
+    "rootDir": "."
   }
 }

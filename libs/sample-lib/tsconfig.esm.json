@@ -1,7 +1,0 @@
-{
-  "extends": "./tsconfig.json",
-  "compilerOptions": {
-    "module": "ESNext", // For ESM (Vite)
-    "outDir": "dist/esm"
-  }
-}
