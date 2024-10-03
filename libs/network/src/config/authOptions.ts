@@ -5,7 +5,7 @@ import {
   AuthProviderType,
   GetAuthProviderDocument,
   LoginDocument,
-  MutationDocument,
+  RegisterWithCredentialsDocument,
   RegisterWithProviderDocument,
 } from "@parkwise/network/src/gql/generated";
 import { fetchGraphQL } from "../fetch";

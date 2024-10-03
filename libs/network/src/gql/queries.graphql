@@ -72,10 +72,25 @@ query GetAuthProvider($uid: String!) {
   }
 }
 
-mutation RegisterWithProvider($registerWithProviderInput: RegisterWithProviderInput!) {
+mutation RegisterWithProvider(
+  $registerWithProviderInput: RegisterWithProviderInput!
+) {
   registerWithProvider(registerWithProviderInput: $registerWithProviderInput) {
     uid
     name
+    image
+  }
+}
+
+mutation RegisterWithCredentials(
+  $registerWithCredentialsInput: RegisterWithCredentialInput!
+) {
+  registerWithCredentials(
+    registerWithCredentialsInput: $registerWithCredentialsInput
+  ) {
+    uid
+    name
+    createdAt
     image
   }
 }
